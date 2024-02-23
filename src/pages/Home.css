@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Hebrew:wght@100;200;300;400;500;600;700&display=swap');
+
+
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 0 20px;
+    background-color: #ffff;
+  }
+  
+  .logo {
+    width: 184px;
+    height: 226px;
+    align-items: center;
+  }
+  
+  .title {
+    font-size: 25px;
+    color: #6A2894;
+    text-align: center;
+    margin-top: 30px;
+    font-family: "IBM Plex Sans Hebrew", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    width: 289px;
+    height: 61px;
+    letter-spacing: 20%;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .button {
+    display: flex;
+    flex-direction: column;
+    background-color: #6A2894;
+    justify-content: space-between;
+    border: none;
+    color: #F8F7FA;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "IBM Plex Sans Hebrew", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    margin: 6px 4px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 337px;
+    height: 54px;
+    line-height: 20px;
+  }
+  
+  .button:hover {
+    background-color: #481668;
+  }
+  
+  .button:active {
+    background-color: #481668;
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  }
+  
+  .button:focus {
+    outline: none;
+  }

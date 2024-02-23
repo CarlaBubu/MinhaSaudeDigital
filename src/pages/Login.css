@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Hebrew:wght@100;200;300;400;500;600;700&family=Krona+One&family=Lato:wght@300&family=Montserrat:wght@400;600&display=swap');
+
+.first-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 0 10px;
+    background-color: #ffff;
+  }
+
+  h3{
+    font-size: 20px;
+    color: #6A2894;
+    text-align: center;
+    margin-top: 10px;
+    font-family: "IBM Plex Sans Hebrew", sans-serif;
+    font-weight: 300;
+    font-style: medium;
+  }
+
+  h1{
+    font-size: 25px;
+    color: #6A2894;
+    text-align: center;
+    margin-top: 20px;
+    font-family: "IBM Plex Sans Hebrew", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  h2{
+    font-family: "IBM Plex Sans Hebrew", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #6A2894;
+    font-size: 15px;
+    text-align: left;
+  }
+
+  .login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+  }
+  
+  input[type="email"],
+  input[type="password"] {
+    width: 337px;
+    height: 43px;
+    margin-bottom: 10px;
+    padding: 0 10px;
+    font-size: 16px;
+    border: 1px solid #6A2894;
+    border-radius: 5px;
+  }
+  
+  label {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    margin-top: 10px;
+    font-family: "IBM Plex Sans Hebrew", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #6A2894;
+    font-size: 12px;
+    text-align: left;
+  }
+  
+  input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  .welcome-container {
+    margin-top: 30px;
+  }
+  
+  .button-acessar {
+    display: flex;
+    flex-direction: column;
+    background-color: #6A2894;
+    justify-content: center;
+    border: none;
+    color: #F8F7FA;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "IBM Plex Sans Hebrew", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    margin: 2px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    line-height: 20px;
+    width: 337px;
+    height: 40px;
+  }
+  
+  .button-acessar:hover {
+    background-color: #481668;
+  }
+  
+  .links-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    align-items: center;
+  }
+  
+  .links-container a {
+    text-decoration: none;
+    color: #6A2894;
+    display: flex;
+    flex-direction: left;
+    align-items: start;
+    font-size: 12px;
+    font-family: "IBM Plex Sans Hebrew", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #6A2894;
+    margin: 0 4px;
+    margin-left: 0;
+    margin-right: 0;
+    cursor: pointer;
+  }
