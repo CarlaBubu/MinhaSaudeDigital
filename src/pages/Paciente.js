@@ -46,11 +46,10 @@ const Paciente = () => {
       </Link>
       <div className="links-container">
         <a href="/recover-password">ESQUECI MINHA SENHA</a>
-        <a href="/register">NOVO CADASTRO</a>
+        <Link to="/novoCadastro" >NOVO CADASTRO</Link>
       </div>
     </div>
   );
 };
 
-  
-  export default Paciente;
+export default Paciente;
