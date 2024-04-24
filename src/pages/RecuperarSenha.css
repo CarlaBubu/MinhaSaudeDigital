@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Hebrew:wght@100;200;300;400;500;600;700&display=swap');
+
+.recuperar-senha-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .recuperar-senha-title {
+    font-size: 25px;
+    font-weight: bold;
+    color: #6A2894;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: "IBM Plex Sans Hebrew", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .recuperar-senha-description {
+    font-size: 12px;
+    color: #6A2894;
+    text-align: center;
+    margin-bottom: 40px;
+    font-family: "IBM Plex Sans Hebrew", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .recuperar-senha-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .recuperar-senha-label {
+    font-weight: bold;
+    color: #6A2894;
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-family: "IBM Plex Sans Hebrew", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .recuperar-senha-input {
+    padding: 10px 10px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    border: 1px solid #6A2894;
+    border-radius: 5px;
+    width: 365px;
+    height: 60px;
+  }
+  
+  .recuperar-senha-button {
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: #6A2894;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: "IBM Plex Sans Hebrew", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    width: 365px;
+    height: 60px;
+  }
+  
+  .recuperar-senha-button:hover {
+    background-color: #481668;
+  }

@@ -8,9 +8,9 @@ import Paciente from './pages/Paciente';
 import Profissional from './pages/Profissional';
 import NovoCadastro from './pages/NovoCadastro';
 
-//components
 import Navbar from './components/Navbar';
 import RegistroPacientes from './pages/RegistroPacientes';
+import RecuperarSenha from './pages/RecuperarSenha';
 
 function App() {
   return (
@@ -23,6 +23,7 @@ function App() {
           <Route path="profissional" element={<Profissional />} />
           <Route path="registroPacientes" element={<RegistroPacientes />} />
           <Route path="novoCadastro" element={<NovoCadastro />}/>
+          <Route path="RecuperarSenha" element={<RecuperarSenha />}/>
         </Routes>
       </BrowserRouter>
       {/*<img src={process.env.PUBLIC_URL + "./image.png"} alt="logo da minha saúde digital" width={400} height={500} /> */}

@@ -45,7 +45,7 @@ const Paciente = () => {
         ACESSAR
       </Link>
       <div className="links-container">
-        <a href="/recover-password">ESQUECI MINHA SENHA</a>
+        <a href="/recuperarSenha">ESQUECI MINHA SENHA</a>
         <Link to="/novoCadastro" >NOVO CADASTRO</Link>
       </div>
     </div>
