@@ -47,7 +47,7 @@
   
   input[type="email"],
   input[type="password"] {
-    width: 2337px;
+    width: 237px;
     height: 43px;
     margin-bottom: 10px;
     padding: 10px 10px;
@@ -95,8 +95,8 @@
     cursor: pointer;
     border-radius: 5px;
     line-height: 20px;
-    width: 337px;
-    height: 40px;
+    width: 310px;
+    height: 43px;
   }
   
   .button-acessar:hover {

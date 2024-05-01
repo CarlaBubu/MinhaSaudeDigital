@@ -11,6 +11,7 @@ import NovoCadastro from './pages/NovoCadastro';
 import Navbar from './components/Navbar';
 import RegistroPacientes from './pages/RegistroPacientes';
 import RecuperarSenha from './pages/RecuperarSenha';
+import NovaSenha from './pages/NovaSenha';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route path="registroPacientes" element={<RegistroPacientes />} />
           <Route path="novoCadastro" element={<NovoCadastro />}/>
           <Route path="RecuperarSenha" element={<RecuperarSenha />}/>
+          <Route path="NovaSenha" element={<NovaSenha />}/>
         </Routes>
       </BrowserRouter>
       {/*<img src={process.env.PUBLIC_URL + "./image.png"} alt="logo da minha saúde digital" width={400} height={500} /> */}

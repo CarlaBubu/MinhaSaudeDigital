@@ -1,13 +1,16 @@
-import React, { useState } from 'react';
+import React from 'react';
+import { Link } from 'react-router-dom';
 import './RecuperarSenha.css';
 
 const RecuperarSenha = () => {
-  const [nome, setNome] = useState('');
-  const [sobrenome, setSobrenome] = useState('');
-  const [email, setEmail] = useState('');
+  const [nome, setNome] = React.useState('');
+  const [sobrenome, setSobrenome] = React.useState('');
+  const [email, setEmail] = React.useState('');
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    // Implement password recovery logic here
+    // Send request to server or API to recover password
   };
 
   return (
@@ -47,9 +50,11 @@ const RecuperarSenha = () => {
           onChange={(e) => setEmail(e.target.value)}
           className="recuperar-senha-input"
         />
-        <button type="submit" className="recuperar-senha-button">
-          RECUPERAR MINHA SENHA
-        </button>
+        <Link to="/NovaSenha" className="recuperar-senha-button-link">
+          <button type="button" className="recuperar-senha-button">
+            RECUPERAR MINHA SENHA
+          </button>
+        </Link>
       </form>
     </div>
   );
