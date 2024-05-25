@@ -1,13 +1,13 @@
 import './App.css';
-// import { useState } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import logo from './pages/logo.png';
+import { useLocation } from 'react-router-dom';
+import { useState, useEffect } from 'react';
 
-// pages
 import Home from './pages/Home';
 import Paciente from './pages/Paciente';
 import Profissional from './pages/Profissional';
 import NovoCadastro from './pages/NovoCadastro';
-
 import Navbar from './components/Navbar';
 import RegistroPacientes from './pages/RegistroPacientes';
 import RecuperarSenha from './pages/RecuperarSenha';
@@ -28,7 +28,6 @@ function App() {
           <Route path="NovaSenha" element={<NovaSenha />}/>
         </Routes>
       </BrowserRouter>
-      {/*<img src={process.env.PUBLIC_URL + "./image.png"} alt="logo da minha saúde digital" width={400} height={500} /> */}
     </div>
   );
 }
