@@ -1,8 +1,5 @@
 import './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import logo from './pages/logo.png';
-import { useLocation } from 'react-router-dom';
-import { useState, useEffect } from 'react';
 
 import Home from './pages/Home';
 import Paciente from './pages/Paciente';
@@ -12,6 +9,9 @@ import Navbar from './components/Navbar';
 import RegistroPacientes from './pages/RegistroPacientes';
 import RecuperarSenha from './pages/RecuperarSenha';
 import NovaSenha from './pages/NovaSenha';
+import PaginaPaciente from './pages/PaginaPaciente';
+import MinhaSaude from './pages/MinhaSaude';
+import MeusRegistros from './pages/MeusRegistros';
 
 function App() {
   return (
@@ -26,6 +26,9 @@ function App() {
           <Route path="novoCadastro" element={<NovoCadastro />}/>
           <Route path="RecuperarSenha" element={<RecuperarSenha />}/>
           <Route path="NovaSenha" element={<NovaSenha />}/>
+          <Route path="PaginaPaciente" element={<PaginaPaciente />}/>
+          <Route path="MinhaSaude" element={<MinhaSaude />}/>
+          <Route path="MeusRegistros" element={<MeusRegistros />}/>
         </Routes>
       </BrowserRouter>
     </div>

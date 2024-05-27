@@ -41,7 +41,7 @@ const Paciente = () => {
           Manter conectado
         </label>
       </div>
-      <Link to="/registroPacientes" className="button-acessar">
+      <Link to="/paginaPaciente" className="button-acessar">
         ACESSAR
       </Link>
       <div className="links-container">

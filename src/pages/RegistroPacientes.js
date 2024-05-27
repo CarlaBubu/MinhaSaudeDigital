@@ -6,7 +6,6 @@ const RegistroPacientes = () => {
 
   const handleSearch = (e) => {
     e.preventDefault();
-    // Add search logic here
   };
 
   return (
