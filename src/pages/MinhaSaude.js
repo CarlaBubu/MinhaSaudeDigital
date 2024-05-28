@@ -1,12 +1,64 @@
-import './PaginaPaciente.css';
+import './MinhaSaude.css';
 
 const MinhaSaude = () => {
     return (
         <div className="registro-pacientes">
-      <h1>OLÁ CAROLINA LOPES!</h1>
-      <h2>FLORIANÓPOLIS, 29 
-        DE NOVEMBRO 2023 </h2>
-    </div>
+            <h1>OLÁ CAROLINA LOPES!</h1>
+            <br />
+            <h2>FLORIANÓPOLIS, 29 DE NOVEMBRO 2023</h2>
+            <div className="minha-saude">
+            <br />
+                <p>MINHA SAÚDE</p>
+                <div className="registro">
+                    <div className="icone"><img src="peso.png" alt="Peso"/></div>
+                    <div className="informacao">
+                        <h5>PESO</h5>
+                        <h4>Kg</h4>
+                    </div>
+                    <div className="botao"><span>VER HISTÓRICO</span></div>
+                </div>
+                <div className="registro">
+                    <div className="icone"><img src="glicose.png" alt="Glicose"/></div>
+                    <div className="informacao">
+                        <h5>GLICOSE</h5>
+                        <h4>mg/dL</h4>
+                    </div>
+                    <div className="botao"> <span>VER HISTÓRICO</span> </div>
+                </div>
+                <div className="registro">
+                    <div className="icone"><img src="pressao.png" alt="Pressão Arterial"/></div>
+                    <div className="informacao">
+                        <h5>PRESSÃO ARTERIAL</h5>
+                        <h4>mmHg</h4>
+                    </div>
+                    <div className="botao"> <span>VER HISTÓRICO</span> </div>
+                </div>
+                <div className="registro">
+                    <div className="icone"><img src="coracao.png" alt="Frequência Cardíaca"/></div>
+                    <div className="informacao">
+                        <h5>FREQUÊNCIA CARDÍACA</h5>
+                        <h4>bpm</h4>
+                    </div>
+                    <div className="botao"> <span>VER HISTÓRICO</span> </div>
+                </div>
+                <div className="registro">
+                    <div className="icone"><img src="oxigenio.png" alt="Saturação de Oxigênio"/></div>
+                    <div className="informacao">
+                        <h5>SATURAÇÃO DE OXIGENIO</h5>
+                        <h4>%</h4>
+                    </div>
+                    <div className="botao"> <span>VER HISTÓRICO</span> </div>
+                </div>
+                <div className="registro">
+                    <div className="icone"><img src="termometro.png" alt="Temperatura Corporal"/></div>
+                    <div className="informacao">
+                        <h5>TEMPERATURA CORPORAL</h5>
+                        <h4>°C</h4>
+                    </div>
+                    <div className="botao"> <span>VER HISTÓRICO</span> </div>
+                </div>
+            </div>
+        </div>
     );
 };
 
