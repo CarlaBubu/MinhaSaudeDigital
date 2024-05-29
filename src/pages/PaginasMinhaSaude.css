@@ -58,9 +58,14 @@ h3{
     justify-content: baseline;
   }
 
-  .parent-container {
+  body {
+    font-family: sans-serif;
+  }
+  
+  .container {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
   }
   
   .registro-pacientes {
@@ -73,68 +78,76 @@ h3{
     margin: 0 auto;
     text-align: center;
   }
-
-  .minha-saude {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  
+  .historico-container {
     padding: 20px;
 }
 
-.registro {
-    display: flex;
-    align-items: center;
+  .historico-item {
     margin-bottom: 20px;
-    background-color: #D0C6E7;
-    width: 390px;
-    height: 115px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
-.icone {
-    margin-right: 20px;
+hr {
+    border: none;
+    border-top: 1px solid #6A2894;
+    margin: 20px 0;
+    width: 360px;
 }
 
-.icone img {
-    width: 30px;
-    height: 30px;
-    margin-left: 20px;
-}
-
-.informacao {
-    justify-content: baseline;
-    text-align: left;
-}
-
-.botao {
+input[type="number"] {
+    width: 200px;
+    padding: 10px;
+    border: 1px solid #6A2894;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  button {
     background-color: #6A2894;
-    color: #ffff;
+    color: white;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    line-height: 1;
-    margin-left: auto; 
-    margin-right: 20px;
+    border-top: 20px;
+    height: 60px;
+    width: 327px;
+    font-size: 18px;
+    font-weight: 500;
     font-family: "IBM Plex Sans Hebrew", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 10px;
-    text-align: center;
-    height: 15px;
-    width: 100px;
-}
-
-.botao:hover {
-    background-color: #481668;
-}
-
-.botao span {
-    font-size: 12px;
-    line-height: 1;
-    color:#ffff
+    font-style: medium;
+  }
+  
+  .input-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .input-container span {
+    margin-left: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "IBM Plex Sans Hebrew", sans-serif;
+    font-style: medium;
+  }
+  
+  .historico-item p {
+    font-size: 18px;
+    margin-bottom: 5px;
+    text-align: left;
+    font-weight: 500;
+    font-family: "IBM Plex Sans Hebrew", sans-serif;
+    font-style: medium;
+    margin-left: 60px;
+  }
+  
+  .historico-item span {
+    font-size: 15px;
+    color: #6A2894;
+    text-align: left;
+    font-weight: 500;
+    font-family: "IBM Plex Sans Hebrew", sans-serif;
+    font-style: medium;
+    margin-left: 80px;
   }

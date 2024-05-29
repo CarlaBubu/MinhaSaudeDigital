@@ -1,4 +1,5 @@
 import './MinhaSaude.css';
+import { Link } from 'react-router-dom';
 
 const MinhaSaude = () => {
     return (
@@ -15,7 +16,11 @@ const MinhaSaude = () => {
                         <h5>PESO</h5>
                         <h4>Kg</h4>
                     </div>
-                    <div className="botao"><span>VER HISTÓRICO</span></div>
+                    <div className="botao">
+                    <Link to="/peso" >
+                        <span>VER HISTÓRICO</span>
+                        </Link>
+                    </div>
                 </div>
                 <div className="registro">
                     <div className="icone"><img src="glicose.png" alt="Glicose"/></div>
@@ -23,7 +28,11 @@ const MinhaSaude = () => {
                         <h5>GLICOSE</h5>
                         <h4>mg/dL</h4>
                     </div>
-                    <div className="botao"> <span>VER HISTÓRICO</span> </div>
+                    <div className="botao"> 
+                    <Link to="/glicose">
+                        <span>VER HISTÓRICO</span>
+                        </Link>
+                    </div>
                 </div>
                 <div className="registro">
                     <div className="icone"><img src="pressao.png" alt="Pressão Arterial"/></div>
@@ -31,7 +40,11 @@ const MinhaSaude = () => {
                         <h5>PRESSÃO ARTERIAL</h5>
                         <h4>mmHg</h4>
                     </div>
-                    <div className="botao"> <span>VER HISTÓRICO</span> </div>
+                    <div className="botao"> 
+                    <Link to="/arterial">
+                        <span>VER HISTÓRICO</span>
+                        </Link>
+                    </div>
                 </div>
                 <div className="registro">
                     <div className="icone"><img src="coracao.png" alt="Frequência Cardíaca"/></div>
@@ -39,7 +52,11 @@ const MinhaSaude = () => {
                         <h5>FREQUÊNCIA CARDÍACA</h5>
                         <h4>bpm</h4>
                     </div>
-                    <div className="botao"> <span>VER HISTÓRICO</span> </div>
+                    <div className="botao"> 
+                    <Link to="/coracao">
+                        <span>VER HISTÓRICO</span>
+                        </Link>
+                    </div>
                 </div>
                 <div className="registro">
                     <div className="icone"><img src="oxigenio.png" alt="Saturação de Oxigênio"/></div>
@@ -47,7 +64,11 @@ const MinhaSaude = () => {
                         <h5>SATURAÇÃO DE OXIGENIO</h5>
                         <h4>%</h4>
                     </div>
-                    <div className="botao"> <span>VER HISTÓRICO</span> </div>
+                    <div className="botao"> 
+                    <Link to="/oxigenio">
+                        <span>VER HISTÓRICO</span>
+                        </Link>
+                    </div>
                 </div>
                 <div className="registro">
                     <div className="icone"><img src="termometro.png" alt="Temperatura Corporal"/></div>
@@ -55,7 +76,11 @@ const MinhaSaude = () => {
                         <h5>TEMPERATURA CORPORAL</h5>
                         <h4>°C</h4>
                     </div>
-                    <div className="botao"> <span>VER HISTÓRICO</span> </div>
+                    <div className="botao">
+                    <Link to="/temperatura">
+                        <span>VER HISTÓRICO</span>
+                        </Link>
+                    </div>
                 </div>
             </div>
         </div>
