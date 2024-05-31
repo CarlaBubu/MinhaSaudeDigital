@@ -89,9 +89,16 @@ h3{
 
 hr {
     border: none;
-    border-top: 1px solid #6A2894;
+    border-top: 1px solid #8976b4;
     margin: 20px 0;
     width: 360px;
+}
+
+.hr-linha{
+  border: none;
+  border-top: 2px solid #6A2894;
+  margin-top: 2px;
+  width: 360px;
 }
 
 input[type="number"] {

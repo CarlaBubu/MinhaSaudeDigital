@@ -1,6 +1,6 @@
-import './PaginasMinhaSaude.css';
+import './PaginasMeusRegistros.css';
 
-const Oxigenio = () => {
+const Consultas = () => {
     return (
         <div className="registro-pacientes">
             <h1>OLÁ CAROLINA LOPES!</h1>
@@ -8,11 +8,10 @@ const Oxigenio = () => {
             <h2>FLORIANÓPOLIS, 29 DE NOVEMBRO 2023</h2>
             <div className="minha-saude">
             <br />
-                <p>SATURAÇÃO DE OXIGENIO</p>
+                <p>CONSULTAS</p>
                 <hr className="hr-linha"/>
                 <div className="input-container">
-                    <input type="number" placeholder="Saturação" style={{ width: 250 }}/>
-                    <span>%</span>
+                    <input type="text" placeholder="DIGITE AS INFORMAÇÕES AQUI." style={{ width:300 }}/>
                 </div>
                 <button>REGISTRAR</button>
                 <br />
@@ -20,20 +19,17 @@ const Oxigenio = () => {
                 <hr className="hr-linha"/>
                 <div className="historico-container">
                     <div className="historico-item">
-                        <p>95% <span>16/10/2023</span></p>
+                        <p>Cardiologista - Dr José: 05/11/2023 <span>16/10/2023</span></p>
                     </div>
                     <hr />
-                    <div className="historico-item">
-                        <p>82% <span>17/10/2023</span></p>
-                    </div>
+                    <br/>
                     <hr />
-                    <div className="historico-item">
-                        <p>100% <span>18/10/2023</span></p>
-                    </div>
+                    <br/>
+                    <hr />
                 </div>
             </div>
         </div>
     );
 };
 
-export default Oxigenio;
+export default Consultas;

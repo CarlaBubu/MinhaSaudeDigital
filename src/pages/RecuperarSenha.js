@@ -29,6 +29,7 @@ const RecuperarSenha = () => {
           value={nome}
           onChange={(e) => setNome(e.target.value)}
           className="recuperar-senha-input"
+          style={{ width: 300 }}
         />
         <label htmlFor="sobrenome" className="recuperar-senha-label">
           SOBRENOME:
@@ -39,6 +40,7 @@ const RecuperarSenha = () => {
           value={sobrenome}
           onChange={(e) => setSobrenome(e.target.value)}
           className="recuperar-senha-input"
+          style={{ width: 300 }}
         />
         <label htmlFor="email" className="recuperar-senha-label">
           E-MAIL:
@@ -49,6 +51,7 @@ const RecuperarSenha = () => {
           value={email}
           onChange={(e) => setEmail(e.target.value)}
           className="recuperar-senha-input"
+          style={{ width: 300 }}
         />
         <Link to="/NovaSenha" className="recuperar-senha-button-link">
           <button type="button" className="recuperar-senha-button">

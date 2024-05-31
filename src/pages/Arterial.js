@@ -9,13 +9,15 @@ const Arterial = () => {
             <div className="minha-saude">
             <br />
                 <p>PRESSÃO ARTERIAL</p>
+                <hr className="hr-linha"/>
                 <div className="input-container">
-                    <input type="number" placeholder="PA" />
+                    <input type="number" placeholder="PA" style={{ width: 250 }}/>
                     <span>mmHg</span>
                 </div>
                 <button>REGISTRAR</button>
                 <br />
                 <h4>HISTÓRICO</h4>
+                <hr className="hr-linha"/>
                 <div className="historico-container">
                     <div className="historico-item">
                         <p>120x80 mmHg <span>16/10/2023</span></p>

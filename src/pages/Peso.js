@@ -9,13 +9,15 @@ const Peso = () => {
             <div className="minha-saude">
             <br />
                 <p>PESO</p>
+                <hr className="hr-linha"/>
                 <div className="input-container">
-                    <input type="number" placeholder="Peso" />
+                    <input type="number" placeholder="Peso"  style={{ width: 250 }}/>
                     <span>Kg</span>
                 </div>
                 <button>REGISTRAR</button>
                 <br />
                 <h4>HISTÓRICO</h4>
+                <hr className="hr-linha"/>
                 <div className="historico-container">
                     <div className="historico-item">
                         <p>70 Kg <span>16/10/2023</span></p>

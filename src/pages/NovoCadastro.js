@@ -31,6 +31,7 @@ const NovoCadastro = () => {
             id="name"
             value={name}
             onChange={(e) => setName(e.target.value)}
+            style={{ width: 300 }}
           />
         </div>
         <div className="form-field">
@@ -40,6 +41,7 @@ const NovoCadastro = () => {
             id="lastName"
             value={lastName}
             onChange={(e) => setLastName(e.target.value)}
+            style={{ width: 300 }}
           />
         </div>
         <div className="form-field">
@@ -49,6 +51,7 @@ const NovoCadastro = () => {
             id="birthDate"
             value={birthDate}
             onChange={(e) => setBirthDate(e.target.value)}
+            style={{ width: 300 }}
           />
         </div>
         <div className="form-field">
@@ -59,6 +62,7 @@ const NovoCadastro = () => {
             id="height"
             value={height}
             onChange={(e) => setHeight(e.target.value)}
+            style={{ width: 300 }}
           />
         </div>
         <div className="form-field">
@@ -68,6 +72,7 @@ const NovoCadastro = () => {
             id="email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
+            style={{ width: 300 }}
           />
         </div>
         <div className="form-field">
@@ -77,6 +82,7 @@ const NovoCadastro = () => {
             id="password"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
+            style={{ width: 300 }}
           />
         </div>
         <div className="form-field">
@@ -86,6 +92,7 @@ const NovoCadastro = () => {
             id="confirmPassword"
             value={confirmPassword}
             onChange={(e) => setConfirmPassword(e.target.value)}
+            style={{ width: 300 }}
           />
         </div>
         <button type="submit" className="botao-cadastro">

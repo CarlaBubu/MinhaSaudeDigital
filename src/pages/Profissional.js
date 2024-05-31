@@ -24,6 +24,7 @@ const Profissional = () => {
           placeholder="E-mail"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
+          style={{ width: 300 }}
         />
         <h2>Informe Sua Senha</h2>
         <input
@@ -31,6 +32,7 @@ const Profissional = () => {
           placeholder="Senha"
           value={password}
           onChange={(e) => setPassword(e.target.value)}
+          style={{ width: 300 }}
         />
         <label>
           <input

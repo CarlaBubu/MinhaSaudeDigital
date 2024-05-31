@@ -10,6 +10,7 @@ const MinhaSaude = () => {
             <div className="minha-saude">
             <br />
                 <p>MINHA SAÚDE</p>
+                <hr />
                 <div className="registro">
                     <div className="icone"><img src="peso.png" alt="Peso"/></div>
                     <div className="informacao">

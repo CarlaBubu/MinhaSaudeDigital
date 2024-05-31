@@ -26,6 +26,7 @@ const NovaSenha = () => {
           value={code}
           onChange={(e) => setCode(e.target.value)}
           className="recuperar-senha-input"
+          style={{ width: 300 }}
         />
         <label htmlFor="new-password" className="recuperar-senha-label">
           NOVA SENHA:
@@ -36,6 +37,7 @@ const NovaSenha = () => {
           value={newPassword}
           onChange={(e) => setNewPassword(e.target.value)}
           className="recuperar-senha-input"
+          style={{ width: 300 }}
         />
         <label htmlFor="confirm-new-password" className="recuperar-senha-label">
           CONFIRMAR NOVA SENHA:
@@ -46,6 +48,7 @@ const NovaSenha = () => {
           value={confirmNewPassword}
           onChange={(e) => setConfirmNewPassword(e.target.value)}
           className="recuperar-senha-input"
+          style={{ width: 300 }}
         />
         <button type="submit" className="recuperar-senha-button">
           CONFIRMAR

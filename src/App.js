@@ -18,6 +18,12 @@ import Arterial from './pages/Arterial';
 import Coracao from './pages/Coracao';
 import Oxigenio from './pages/Oxigenio';
 import Temperatura from './pages/Temperatura';
+import Medicamentos from './pages/Medicamentos';
+import Consultas from './pages/Consultas';
+import Procedimentos from './pages/Procedimentos';
+import Vacinacao from './pages/Vacinacao';
+import Alimentacao from './pages/Alimentacao';
+import Exercicios from './pages/Exercicios';
 
 
 function App() {
@@ -42,6 +48,12 @@ function App() {
           <Route path="Coracao" element={<Coracao/> } />
           <Route path="Oxigenio" element={<Oxigenio/> } />
           <Route path="Temperatura" element={<Temperatura/> } />
+          <Route path="Medicamentos" element={<Medicamentos/> } />
+          <Route path="Consultas" element={<Consultas/> } />
+          <Route path="Procedimentos" element={<Procedimentos/> } />
+          <Route path="Vacinacao" element={<Vacinacao/> } />
+          <Route path="Alimentacao" element={<Alimentacao/> } />
+          <Route path="Exercicios" element={<Exercicios/> } />
         </Routes>
       </BrowserRouter>
     </div>

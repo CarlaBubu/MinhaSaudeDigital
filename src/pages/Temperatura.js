@@ -9,13 +9,15 @@ const Temperatura = () => {
             <div className="minha-saude">
             <br />
                 <p>TEMPERATURA CORPORAL</p>
+                <hr className="hr-linha"/>
                 <div className="input-container">
-                    <input type="number" placeholder="Temperatura" />
+                    <input type="number" placeholder="Temperatura" style={{ width: 250 }}/>
                     <span>ºC</span>
                 </div>
                 <button>REGISTRAR</button>
                 <br />
                 <h4>HISTÓRICO</h4>
+                <hr className="hr-linha"/>
                 <div className="historico-container">
                     <div className="historico-item">
                         <p>40ºC <span>16/10/2023</span></p>

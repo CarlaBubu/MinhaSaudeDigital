@@ -9,13 +9,15 @@ const Coracao = () => {
             <div className="minha-saude">
             <br />
                 <p>FREQUÊNCIA CARDÍACA</p>
+                <hr className="hr-linha"/>
                 <div className="input-container">
-                    <input type="number" placeholder="Frequência" />
+                    <input type="number" placeholder="Frequência" style={{ width: 250 }}/>
                     <span>bpm</span>
                 </div>
                 <button>REGISTRAR</button>
                 <br />
                 <h4>HISTÓRICO</h4>
+                <hr className="hr-linha"/>
                 <div className="historico-container">
                     <div className="historico-item">
                         <p>100 bpm <span>16/10/2023</span></p>
