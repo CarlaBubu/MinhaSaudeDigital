@@ -1,23 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Hebrew:wght@100;200;300;400;500;600;700&display=swap');
 
 h3{
-    font-size: 20px;
-    color: #6A2894;
+    font-size: 16px;
+    color: #000;
     text-align: center;
     margin-top: 10px;
     font-family: "IBM Plex Sans Hebrew", sans-serif;
-    font-weight: 300;
+    font-weight: 500;
     font-style: medium;
   }
 
   h1{
-    font-size: 25px;
-    color: #6A2894;
+    font-size: 20px;
+    color: #000;
     text-align: center;
-    margin-top: 20px;
     font-family: "IBM Plex Sans Hebrew", sans-serif;
     font-weight: 500;
     font-style: normal;
+    margin-left: 8px;
+    margin-right: 8px;
   }
 
   h2{
@@ -25,9 +26,21 @@ h3{
     font-weight: 400;
     font-style: normal;
     color: #6A2894;
-    font-size: 15px;
-    text-align: left;
+    font-size: 20px;
+    text-align: center;
     margin-right: 20px;
+    margin-left: 30px;
+    margin-bottom: 5px;
+    margin-top: 15px;
+  }
+
+  p{
+    font-family: "IBM Plex Sans Hebrew", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #B50000;
+    font-size: 20px;
+    text-align: center;
   }
 
 .parent-container {
@@ -37,11 +50,31 @@ h3{
     flex-direction: column;
   }
 
-    .registroP{
-      display: flex;
-      justify-content: center;
-      align-items: center; 
-    }
+.registroP{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.registroP h1{
+    font-size: 25px;
+    color: #6A2894;
+    text-align: center;
+    margin-top: 20px;
+    font-family: "IBM Plex Sans Hebrew", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.parent-container h2{
+    font-family: "IBM Plex Sans Hebrew", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #6A2894;
+    font-size: 15px;
+    text-align: left;
+    margin-right: 20px;
+}
 
 .parent-container img {
     width: 65px; 
@@ -105,7 +138,41 @@ h3{
     transform: translateY(-50%); 
   }
 
-  .paciente-card {
+  .paciente-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin-top: -15px;
+  }
+  
+  .paciente-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: baseline;
+    justify-content: left;
+  }
+  
+  .paciente-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .details-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .details-info p {
+    margin: 10px;
+  }
+  
+  .blood-pressure {
     background-color: #D0C6E7;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     padding: 20px;
@@ -113,109 +180,39 @@ h3{
     margin-bottom: 20px;
     border-radius: 10px;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
     width: 350px;
     height: 150px;
   }
 
-  .paciente-img-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .paciente-img {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    margin-right: 20px;
+  .blood-pressure h4 {
     margin-bottom: 10px; 
-  }
-  
-  .paciente-info {
-    flex: 1;
-    flex-direction: row;
-  }
-  
-  .paciente-status {
-    display: flex;
-    align-items: start;
-    margin-bottom: 10px;
-    justify-content: flex-start; 
-    margin-left: -38px;
-  }
-  
-  .status-icon {
-    width: 30px;
-    height: 30px;
-    margin-right: 5px;
-    margin-left: 5px;
-    justify-content: left;
-  }
-  
-  .status-dot {
-    width: 10px;
-    height: 10px;
-    background-color: red;
-    border-radius: 50%;
-    margin-left: 10px;
-    margin-right: 10px;
-  }
-  
-  .ver-mais {
+    font-size: 13px;
     color: #000;
-    text-decoration: none;
-    font-size: 12px;
-    cursor: pointer;
-    margin-left: 10px;
-  }
-  
-  .ver-mais:hover {
-    text-decoration: underline;
-  }
-
-  .paciente-info h4 {
-    display: flex;
-    align-items: center;
-    color: #000;
+    text-align: center;
+    margin-top: 10px;
     font-family: "IBM Plex Sans Hebrew", sans-serif;
-    font-size: 18px;
-    text-align: left;
+    font-weight: 400;
+    font-style: medium;
   }
   
-  .registrar-paciente{
+  .pressure-values {
     display: flex;
-    align-items: center;
-    justify-content: center; 
+    flex-direction: column; 
+    align-items: center; 
   }
-
-
-  .registrar-paciente-button{
-    margin-left: 50px;
+  
+  .patient-icons {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 80px;
-    width: 227px;
-    background-color: #FFFFFF; 
-    color: #481668;
-    font-weight: bold; 
-    border: none; 
-    border-radius: 5px; 
-    cursor: pointer; 
-    transition: background-color 0.3s ease;
-    padding: 10px; 
-    border-radius: 5px; 
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    border: 2px solid #481668;
+    justify-content: space-between;
+    margin-top: 5px;
   }
-
-  .registrar-paciente-button:hover{
-    background-color: #481668; 
-    color: #FFFFFF;
-  }
-
-  .registrar-icon{
-    height: 50px;
-    width: 50px;
+  
+  .patient-icons svg {
+    width: 28px;
+    height: 28px;
+    margin-left: 30px;
+    margin-right: 30px;
   }

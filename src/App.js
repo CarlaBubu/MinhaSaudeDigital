@@ -24,6 +24,7 @@ import Procedimentos from './pages/Procedimentos';
 import Vacinacao from './pages/Vacinacao';
 import Alimentacao from './pages/Alimentacao';
 import Exercicios from './pages/Exercicios';
+import PerfilDoPaciente from './pages/PerfilDoPaciente';
 
 
 function App() {
@@ -54,6 +55,7 @@ function App() {
           <Route path="Vacinacao" element={<Vacinacao/> } />
           <Route path="Alimentacao" element={<Alimentacao/> } />
           <Route path="Exercicios" element={<Exercicios/> } />
+          <Route path="PerfilDoPaciente" element={<PerfilDoPaciente/> } />
         </Routes>
       </BrowserRouter>
     </div>
