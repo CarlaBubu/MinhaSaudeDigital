@@ -1,24 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Hebrew:wght@100;200;300;400;500;600;700&display=swap');
 
 h3{
-    font-size: 16px;
-    color: #000;
-    text-align: center;
-    margin-top: 10px;
-    font-family: "IBM Plex Sans Hebrew", sans-serif;
-    font-weight: 500;
-    font-style: medium;
+  font-size: 20px;
+  color: #6A2894;
+  text-align: center;
+  margin-top: 10px;
+  font-family: "IBM Plex Sans Hebrew", sans-serif;
+  font-weight: 300;
+  font-style: medium;
   }
 
   h1{
-    font-size: 20px;
-    color: #000;
+    font-size: 25px;
+    color: #6A2894;
     text-align: center;
+    margin-top: 20px;
     font-family: "IBM Plex Sans Hebrew", sans-serif;
     font-weight: 500;
     font-style: normal;
-    margin-left: 8px;
-    margin-right: 8px;
   }
 
   h2{
@@ -26,21 +25,9 @@ h3{
     font-weight: 400;
     font-style: normal;
     color: #6A2894;
-    font-size: 20px;
-    text-align: center;
+    font-size: 15px;
+    text-align: left;
     margin-right: 20px;
-    margin-left: 30px;
-    margin-bottom: 5px;
-    margin-top: 15px;
-  }
-
-  p{
-    font-family: "IBM Plex Sans Hebrew", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    color: #B50000;
-    font-size: 20px;
-    text-align: center;
   }
 
 .parent-container {
@@ -56,24 +43,47 @@ h3{
     align-items: center; 
 }
 
-.registroP h1{
-    font-size: 25px;
-    color: #6A2894;
+.details-info h1{
+  font-size: 20px;
+    color: #000;
     text-align: center;
-    margin-top: 20px;
     font-family: "IBM Plex Sans Hebrew", sans-serif;
     font-weight: 500;
     font-style: normal;
+    margin-left: 8px;
+    margin-right: 8px;  
 }
 
-.parent-container h2{
+.paciente-details h2{
+  font-family: "IBM Plex Sans Hebrew", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #6A2894;
+  font-size: 20px;
+  text-align: center;
+  margin-right: 20px;
+  margin-left: 30px;
+  margin-bottom: 5px;
+  margin-top: 15px;
+}
+
+.blood-pressure h3{
+  font-size: 16px;
+    color: #000;
+    text-align: center;
+    margin-top: 10px;
+    font-family: "IBM Plex Sans Hebrew", sans-serif;
+    font-weight: 500;
+    font-style: medium;
+}
+
+.pressure-values p{
     font-family: "IBM Plex Sans Hebrew", sans-serif;
     font-weight: 400;
     font-style: normal;
-    color: #6A2894;
-    font-size: 15px;
-    text-align: left;
-    margin-right: 20px;
+    color: #B50000;
+    font-size: 20px;
+    text-align: center;
 }
 
 .parent-container img {

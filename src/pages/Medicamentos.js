@@ -11,7 +11,9 @@ const Medicamentos = () => {
                 <p>MEDICAMENTOS</p>
                 <hr className="hr-linha"/>
                 <div className="input-container">
-                    <input type="text" placeholder="DIGITE AS INFORMAÇÕES AQUI." style={{ width:300 }}/>
+                    <input type="text" placeholder="Nome do medicamento" style={{ width: '300px'}}/>
+                    <input type="number" placeholder="Dosagem (mg)" style={{ width: '300px'}}/>
+                    <input type="number" placeholder="Quantidade por dia" style={{ width: '300px'}}/>
                 </div>
                 <button>REGISTRAR</button>
                 <br />
@@ -26,13 +28,6 @@ const Medicamentos = () => {
                     <hr />
                     <br/>
                     <hr />
-                  {/*  <div className="historico-item">
-                        <p>38ºC <span>17/10/2023</span></p>
-                    </div>
-                    <hr />
-                    <div className="historico-item">
-                        <p>36ºC <span>18/10/2023</span></p>
-    </div>*/}
                 </div>
             </div>
         </div>
