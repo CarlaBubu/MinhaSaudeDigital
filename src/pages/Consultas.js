@@ -11,7 +11,20 @@ const Consultas = () => {
                 <p>CONSULTAS</p>
                 <hr className="hr-linha"/>
                 <div className="input-container">
-                    <input type="text" placeholder="DIGITE AS INFORMAÇÕES AQUI." style={{ width:300 }}/>
+                    <select style={{ width: 320 }}>
+                        <option value="">Selecione a especialidade</option>
+                        <option value="Cardiologista">Cardiologista</option>
+                        <option value="Neurologista">Neurologista</option>
+                        <option value="Pediatra">Pediatra</option>
+                        <option value="Oftamoulogista">Oftamoulogista</option>
+                        <option value="Psiquiatra">Psiquiatra</option>
+                        <option value="Psicologo">Psicologo</option>
+                        {/* <option value=""></option> */}
+                    </select>
+                    <br />
+                    <input type="text" placeholder="Nome do médico" style={{ width: 300 }} />
+                    <br />
+                    <input type="date" placeholder="Data da consulta" style={{ width: 300 }} />
                 </div>
                 <button>REGISTRAR</button>
                 <br />

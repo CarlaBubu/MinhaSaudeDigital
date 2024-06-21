@@ -125,6 +125,10 @@ input[type="number"] {
     font-family: "IBM Plex Sans Hebrew", sans-serif;
     font-style: medium;
   }
+
+  button:hover {
+    background-color: #481668;
+}
   
   .input-container {
     display: flex;
@@ -134,7 +138,7 @@ input[type="number"] {
     margin-bottom: 20px;
   }
   
-  .input-container input[type="text"], .input-container input[type="number"] {
+  .input-container input[type="text"], .input-container input[type="text"] {
     width: 100%;
     padding: 10px;
     border: 1px solid #6A2894;
@@ -168,4 +172,13 @@ input[type="number"] {
     font-family: "IBM Plex Sans Hebrew", sans-serif;
     font-style: medium;
     margin-left: 80px;
+  }
+
+  .input-container select {
+    width: 327px;
+    padding: 10px;
+    border: 1px solid #6A2894;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    height: 60px;
   }

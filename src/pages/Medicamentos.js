@@ -11,7 +11,7 @@ const Medicamentos = () => {
                 <p>MEDICAMENTOS</p>
                 <hr className="hr-linha"/>
                 <div className="input-container">
-                    <input type="text" placeholder="Nome do medicamento" style={{ width: '300px'}}/>
+                    <input type="text" placeholder="Nome do medicamento" style= {{ width: '300px'}}/>
                     <input type="number" placeholder="Dosagem (mg)" style={{ width: '300px'}}/>
                     <input type="number" placeholder="Quantidade por dia" style={{ width: '300px'}}/>
                 </div>

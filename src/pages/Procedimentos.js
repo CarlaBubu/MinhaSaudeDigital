@@ -11,7 +11,22 @@ const Procedimentos = () => {
                 <p>PROCEDIMENTOS</p>
                 <hr className="hr-linha"/>
                 <div className="input-container">
-                    <input type="text" placeholder="DIGITE AS INFORMAÇÕES AQUI." style={{ width:300 }}/>
+                    <select style={{ width: 320 }}>
+                        <option value="">Selecione o tipo de procedimento</option>
+                        <option value="Coleta de sangue">Coleta de sangue</option>
+                        <option value="Exame de imagem">Exame de imagem</option>
+                        <option value="Consulta médica">Consulta médica</option>
+                        {/* <option value=""></option> */}
+                    </select>
+                    <br />
+                    <select style={{ width: 320 }}>
+                        <option value="">Selecione a clínica ou consultório</option>
+                        <option value="Clínica São Paulo">Clínica Porto Alegre</option>
+                        <option value="Consultório Médico">Consultório Médico</option>
+                        {/* <option value=""></option> */}
+                    </select>
+                    <br />
+                    <input type="date" placeholder="Data do procedimento" style={{ width: 300 }} />
                 </div>
                 <button>REGISTRAR</button>
                 <br />
