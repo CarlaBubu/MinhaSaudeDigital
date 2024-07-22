@@ -25,6 +25,7 @@ import Vacinacao from './pages/Vacinacao';
 import Alimentacao from './pages/Alimentacao';
 import Exercicios from './pages/Exercicios';
 import PerfilDoPaciente from './pages/PerfilDoPaciente';
+import HomeIntegracao from './pages/HomeIntegracao';
 
 
 function App() {
@@ -33,6 +34,7 @@ function App() {
       <BrowserRouter>
       <Navbar/>
         <Routes>
+        <Route path="HomeIntegracao" element={<HomeIntegracao/> } />
           <Route path="home" element={<Home />} />
           <Route path="paciente" element={<Paciente />} />
           <Route path="profissional" element={<Profissional />} />
