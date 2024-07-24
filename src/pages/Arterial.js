@@ -11,7 +11,8 @@ const Arterial = () => {
                 <p>PRESSÃO ARTERIAL</p>
                 <hr className="hr-linha"/>
                 <div className="input-container">
-                    <input type="number" placeholder="PA" style={{ width: 250 }}/>
+                    <input type="number" placeholder="PA Máxima (Sistólica)" style={{ width: 250, height: 40 }}/>
+                    <input type="number" placeholder="PA Miníma (Diastólica)" style={{ width: 250, height: 40 }}/>
                     <span>mmHg</span>
                 </div>
                 <button>REGISTRAR</button>

@@ -24,7 +24,8 @@ const PaginaPaciente = () => {
         <div className="sinal-vital">
           <img src="/pressao.png" alt="Icone de Pressão" />
           <span>PRESSÃO ARTERIAL</span>
-          <input type="number" placeholder="mmHg" style={{ width: 150 }}/>
+          <input type="number" placeholder="mmHg (máxima)" style={{ width: 150, height: 10}}/>
+          <input type="number" placeholder="mmHg (minima)" style={{ width: 150, height: 10}}/>
         </div>
         <div className="sinal-vital">
           <img src="/termometro.png" alt="Icone de Termômetro" />

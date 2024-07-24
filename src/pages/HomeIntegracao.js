@@ -1,42 +1,48 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
-function HomeIntegracao() {
+const LoadingIndicator = () => (
+  <div>
+    <p>Loading...</p>
+    <span className="spinner" />
+  </div>
+);
+
+const HomeIntegracao = () => {
   const [data, setData] = useState(null);
   const [loading, setLoading] = useState(true);
-  const [error, setError] = useState(null);
 
   useEffect(() => {
-    fetch('/api/data') // A URL base será automaticamente redirecionada pelo proxy
-      .then(response => {
-        if (!response.ok) {
-          throw new Error('Network response was not ok');
-        }
-        return response.json();
-      })
-      .then(data => {
-        setData(data);
+    const fetchData = async () => {
+      try {
+        const response = await fetch('/api/data'); // Fetch from the API endpoint
+        const jsonData = await response.json();
+        setData(jsonData);
+      } catch (error) {
+        console.error('Error fetching data:', error);
+      } finally {
         setLoading(false);
-      })
-      .catch(error => {
-        setError(error);
-        setLoading(false);
-      });
+      }
+    };
+
+    fetchData();
   }, []);
 
   if (loading) {
-    return <p>Loading...</p>;
-  }
-
-  if (error) {
-    return <p>Error: {error.message}</p>;
+    return <LoadingIndicator />;
   }
 
   return (
     <div>
-      <h1>Home Page</h1>
-      <p>Data from Backend: {data ? data.message : 'No data available'}</p>
+      <h1>Home Integracao</h1>
+      {data && (
+        <ul>
+          {data.map(item => (
+            <li key={item.id}>{item.name}</li>
+          ))}
+        </ul>
+      )}
     </div>
   );
-}
+};
 
 export default HomeIntegracao;
